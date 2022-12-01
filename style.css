@@ -8,11 +8,12 @@ form{
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3%;
 }
 
 label { 
   float: right;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 25px;
        
 }
 
@@ -56,4 +57,30 @@ input, textarea {
 .row:after {
   content: "";
   display: table;
-  clear: both;}
+  clear: both;
+  margin-bottom: 1%}
+
+@media screen and (max-width: 600px) { 
+  .col-15, .col-85, .col-35, .col-70{ 
+    width: 90%;
+    margin-top: 0;
+    }
+  label{
+    float: left;
+  }
+  input,textarea,img {
+   margin-left: 23px;
+  }
+}
+@media print{
+  body{
+  font-family: helvetica,sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+  input, textarea{
+    font-family:helvetica,sans-serif;
+    border: 1px solid #333; 
+  }
+
+}
