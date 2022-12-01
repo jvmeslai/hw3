@@ -74,12 +74,12 @@ input, textarea {
 }
 @media print{
   body{
-  font-family: helvetica,sans-serif;
+  font-family: Gill Sans ,sans-serif;
   font-weight: normal;
   font-size: 20px;
 }
   input, textarea{
-    font-family:helvetica,sans-serif;
+    font-family:Gill Sans ,sans-serif;
     border: 1px solid #333; 
   }
 
